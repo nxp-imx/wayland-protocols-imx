@@ -23,6 +23,7 @@ unstable_protocols =								\
 	unstable/xdg-decoration/xdg-decoration-unstable-v1.xml	\
 	unstable/linux-explicit-synchronization/linux-explicit-synchronization-unstable-v1.xml \
 	unstable/primary-selection/primary-selection-unstable-v1.xml		\
+	unstable/alpha-compositing/alpha-compositing-unstable-v1.xml	\
 	$(NULL)
 
 stable_protocols =								\
