@@ -21,6 +21,7 @@ unstable_protocols =								\
 	unstable/xdg-output/xdg-output-unstable-v1.xml				\
 	unstable/input-timestamps/input-timestamps-unstable-v1.xml	\
 	unstable/xdg-decoration/xdg-decoration-unstable-v1.xml	\
+	unstable/alpha-compositing/alpha-compositing-unstable-v1.xml	\
 	$(NULL)
 
 stable_protocols =								\
