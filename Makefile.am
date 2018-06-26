@@ -24,6 +24,7 @@ unstable_protocols =								\
 	unstable/linux-explicit-synchronization/linux-explicit-synchronization-unstable-v1.xml \
 	unstable/primary-selection/primary-selection-unstable-v1.xml		\
 	unstable/alpha-compositing/alpha-compositing-unstable-v1.xml	\
+	unstable/hdr10-metadata/hdr10-metadata-unstable-v1.xml	\
 	$(NULL)
 
 stable_protocols =								\
