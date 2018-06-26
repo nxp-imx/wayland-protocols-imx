@@ -34,6 +34,7 @@ unstable_protocols = {
 	'xdg-shell': ['v5', 'v6'],
 	'xwayland-keyboard-grab': ['v1'],
 	'alpha-compositing': ['v1'],
+	'hdr10-metadata': ['v1'],
 }
 
 staging_protocols = {
