@@ -79,5 +79,6 @@
       <arg name="max_cll" type="uint" summary="max content light level"/>
       <arg name="max_fall" type="uint" summary="max frame average light level"/>
     </request>
+  </interface>
 
 </protocol>
