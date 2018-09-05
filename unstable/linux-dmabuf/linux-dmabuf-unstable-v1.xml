@@ -343,6 +343,28 @@
       <arg name="flags" type="uint" summary="see enum flags"/>
     </request>
 
+    <request name="add_dtrc_meta">
+      <description summary="add dtrc meta in this dmabuf">
+        This request adds one dmabuf to the set in this
+        zwp_linux_buffer_params_v1.
+
+        The 64-bit unsigned value combined from modifier_hi and modifier_lo
+        is the dmabuf layout modifier. DRM AddFB2 ioctl calls this the
+        fb modifier, which is defined in drm_mode.h of Linux UAPI.
+        This is an opaque token. Drivers use this token to express tiling,
+        compression, etc. driver-specific modifications to the base format
+        defined by the DRM fourcc code.
+
+        This request raises the PLANE_IDX error if plane_idx is too large.
+        The error PLANE_SET is raised if attempting to set a plane that
+        was already set.
+      </description>
+      <arg name="rfc_chroma_offset" type="uint"
+           summary="high 32 bits of DTRC offset"/>
+      <arg name="rfc_luma_offset" type="uint"
+           summary="low 32 bits of DTRC offset"/>
+    </request>
+
   </interface>
 
 </protocol>
