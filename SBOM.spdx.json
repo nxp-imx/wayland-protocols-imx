@@ -1,0 +1,53 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-08-24T08:21:31Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "wayland-protocols-imx-LF_6.12.34_2.1.0",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
+      "name": "wayland-protocols-imx",
+      "versionInfo": "LF_6.12.34_2.1.0",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-imx/wayland-protocols-imx -b lf-6.12.34-2.1.0",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-a3230c4c-28f2-4d80-9708-6e48a7b6214c",
+      "name": "wayland-protocols",
+      "versionInfo": "1.41",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "homepage": "https://gitlab.freedesktop.org/wayland/wayland-protocols",
+      "downloadLocation": "http://archive.ubuntu.com/ubuntu/ubuntu/pool/main/w/wayland-protocols",
+      "originator": "Organization: wayland-protocols",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
+      "relationshipType": "DYNAMIC_LINK",
+      "relatedSpdxElement": "SPDXRef-package-a3230c4c-28f2-4d80-9708-6e48a7b6214c"
+    }
+  ]
+}
