@@ -2,23 +2,23 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-08-24T08:21:31Z",
+    "created": "2025-11-12T07:10:55Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "wayland-protocols-imx-LF_6.12.34_2.1.0",
+  "name": "wayland-protocols-imx-LF_6.12.49_2.2.0",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
+  "documentNamespace": "https://nxp.com/spdx/799bcca7-a378-4e7b-ba36-761373ed71de",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
+      "SPDXID": "SPDXRef-package-799bcca7-a378-4e7b-ba36-761373ed71de",
       "name": "wayland-protocols-imx",
-      "versionInfo": "LF_6.12.34_2.1.0",
+      "versionInfo": "LF_6.12.49_2.2.0",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
-      "downloadLocation": "https://github.com/nxp-imx/wayland-protocols-imx -b lf-6.12.34-2.1.0",
+      "downloadLocation": "https://github.com/nxp-imx/wayland-protocols-imx -b lf-6.12.49-2.2.0",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
       "externalRefs": [],
@@ -32,9 +32,20 @@
       "licenseDeclared": "MIT",
       "homepage": "https://gitlab.freedesktop.org/wayland/wayland-protocols",
       "downloadLocation": "http://archive.ubuntu.com/ubuntu/ubuntu/pool/main/w/wayland-protocols",
-      "originator": "Organization: wayland-protocols",
+      "originator": "Organization: ubuntu",
       "supplier": "NOASSERTION",
-      "externalRefs": [],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:deb/ubuntu/wayland-protocols@1.41-1",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "26976cc8-cf6f-4d4e-b26b-92ab820ff8a7",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
       "filesAnalyzed": false
     }
   ],
@@ -42,11 +53,11 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9"
+      "relatedSpdxElement": "SPDXRef-package-799bcca7-a378-4e7b-ba36-761373ed71de"
     },
     {
-      "spdxElementId": "SPDXRef-package-a2823253-13b8-4d37-bb9d-ffaf4bd044d9",
-      "relationshipType": "DYNAMIC_LINK",
+      "spdxElementId": "SPDXRef-package-799bcca7-a378-4e7b-ba36-761373ed71de",
+      "relationshipType": "CONTAINS",
       "relatedSpdxElement": "SPDXRef-package-a3230c4c-28f2-4d80-9708-6e48a7b6214c"
     }
   ]
